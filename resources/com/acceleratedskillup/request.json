@@ -1,4 +1,13 @@
-{
-	name:"test",
-	height:1.55
-}
+    {
+      "filename": "{{CHART1_NAME}}-{{CHART1_VERSION}}.tgz",
+      "sha256sum": "{{CHART1_SHA256}}",
+      "type": "helmchart",
+      "version": "{{REL_NAME}}"
+    },
+    {
+      "filename": "nap/automonitoring",
+      "sha256sum": "nap/automonitoring:2.5.2",
+      "type": "cnfimage",
+      "version": "2.5.2",
+      "pathname": "nap/automonitoring/2.5.2"
+    }
